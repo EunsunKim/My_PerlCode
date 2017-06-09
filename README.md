@@ -15,16 +15,19 @@
      * Two labels
      * two textboxes : username value, user’s password
      * one button    : submit the entered values back to the Login Perl CGI on Apache server for validation
-      - This validation process must be conducted by verifying entered credentials against the content of user.txt file
-        
+     - This validation process must be conducted by verifying entered credentials against the content of user.txt file
+     
+     
    2. Modifed Existing Dynamic Image Presentation CGI/Web Page
    
      * When clicked login button, the link is to invoke the download and display process of the new Login web page
      * After successful login, the Dynamic Image Presentation web page is to be redisplayed with user name
    
+   
    3. Created New MySQL Table
    
     * created a Gallery table which is consist of columns FILENAME, DESCRIPTION, PRICE and STATUS
+   
    
    4. Created New Perl CGI Order and Purchase Web Page
    
@@ -33,10 +36,12 @@
     * After clicking the OK button on either message box, the control is to return to the Dynamic Image Presentation web page
     * clicking the BUY button, the status of that image must be changed from “A” (Available) to “S” (Sold)
    
+   
    5. Modifying Existing Dynamic Image Presentation Web Page
    
     * Purchase works only after logging on successfully
-    
+   
+   
     ## Sample code
     
     if(!$value)
